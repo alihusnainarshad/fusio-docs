@@ -36,23 +36,23 @@ Optional cost of the bundle
 
 ### Actions
 
-Local actions which are included in this bundle and which you submit to the marketplace
+Local actions which are included in this bundle
 
 ### Schemas
 
-Local schemas which are included in this bundle and which you submit to the marketplace
+Local schemas which are included in this bundle
 
 ### Events
 
-Local events which are included in this bundle and which you submit to the marketplace
+Local events which are included in this bundle
 
 ### Cronjobs
 
-Local cronjobs which are included in this bundle and which you submit to the marketplace
+Local cronjobs which are included in this bundle
 
 ### Triggers
 
-Local triggers which are included in this bundle and which you submit to the marketplace
+Local triggers which are included in this bundle
 
 ## Marketplace
 
