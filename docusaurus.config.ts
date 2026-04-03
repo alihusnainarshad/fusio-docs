@@ -99,9 +99,21 @@ const config: Config = {
         },
         {
           type: 'doc',
+          docId: 'operation/index',
+          position: 'left',
+          label: 'Operation',
+        },
+        {
+          type: 'doc',
           docId: 'action/index',
           position: 'left',
           label: 'Action',
+        },
+        {
+          type: 'doc',
+          docId: 'ai/index',
+          position: 'left',
+          label: 'AI',
         },
         {
           href: 'https://github.com/apioo/fusio',
@@ -129,12 +141,16 @@ const config: Config = {
               to: '/docs/architecture',
             },
             {
-              label: 'Backend',
-              to: '/docs/backend',
+              label: 'Operation',
+              to: '/docs/operation',
             },
             {
-              label: 'Ecosystem',
-              to: '/docs/ecosystem',
+              label: 'Action',
+              to: '/docs/action',
+            },
+            {
+              label: 'AI',
+              to: '/docs/ai',
             },
           ],
         },

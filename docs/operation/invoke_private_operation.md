@@ -1,5 +1,5 @@
 
-# Invoke protected operation
+# Invoke private operation
 
 By default every operation is private unless you explicit mark it as public. In order to access a private operation a
 user needs to provide an access token.
@@ -45,61 +45,7 @@ __Response__
 ### OAuth2
 
 It is also possible to use our [OAuth2](https://datatracker.ietf.org/doc/html/rfc6749) authorization endpoint.
-
-#### Client credentials
-
-__Request__
-
-```
-POST /authorization/token
-Authorization: Basic czZCaGRSa3F0MzpnWDFmQmF0M2JW
-Content-Type: application/x-www-form-urlencoded
-
-grant_type=client_credentials
-```
-
-As Basic authorization header you need to provide the `[app key] + ":" + [app secret]` as base64 encoded string. It is
-also possible to provide your username and password but in general it is recommended to use the app key and secret since
-the app access can always be revoked later on.
-
-__Response__
-
-```
-{
-  "access_token": "",
-  "token_type": "bearer",
-  "expires_in": 3600,
-  "refresh_token": ""
-}
-```
-
-#### Refresh token
-
-Most token responses always include a refresh token. You can use this refresh token to extend an access token before it
-expires.
-
-__Request__
-
-```
-POST /authorization/token
-Authorization: Basic czZCaGRSa3F0MzpnWDFmQmF0M2JW
-Content-Type: application/x-www-form-urlencoded
-
-grant_type=refresh_token&refresh_token=[refresh_token]
-```
-
-Like at the client credentials call the Basic header must contain the base64 encode app key and secret.
-
-__Response__
-
-```
-{
-  "access_token": "",
-  "token_type": "bearer",
-  "expires_in": 3600,
-  "refresh_token": ""
-}
-```
+For more detail information take a look at the [authorization](/docs/security/authorization) page.
 
 ## Invoke a protected endpoint
 

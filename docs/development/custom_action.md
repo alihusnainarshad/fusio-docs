@@ -104,3 +104,8 @@ In case your action needs other external dependencies you can also simply declar
 Fusio then tries to inject the correct service via autowiring. Please take a look at the
 [dependency injection](dependency_injection.md) chapter to get more details how this works.
 
+## Adapter
+
+In case you have developed custom actions which you like to share with the community you can also
+build a composer package which contains these actions. Take a look at the [adapter](/docs/internal/adapter)
+page for more information.

@@ -24,7 +24,7 @@ problem or you can also easily [build your own](/docs/development/custom_action)
 
 ## Schema
 
-The schema simply describes a JSON payload. We use a schema to describe i.e. request/response data of a route
+The schema simply describes a JSON payload. We use a schema to describe i.e. request/response data of an operation
 or also event payloads which are dispatched by the system. Every schema is based on [TypeSchema](https://typeschema.org/)
 which we also use to generate a client SDK or other specifications like OpenAPI.
 

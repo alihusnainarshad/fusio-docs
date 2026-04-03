@@ -17,7 +17,7 @@ The command writes the SDK to the `output/` folder.
 
 ## Usage
 
-Please take a look at our [consumer SDK](../../backend/development/sdk) page where we provide
+Please take a look at our [consumer SDK](/docs/backend/development/sdk.md) page where we provide
 a complete introduction how to use and integrate our SDK code generator.
 
 ## Examples

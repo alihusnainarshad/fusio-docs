@@ -39,5 +39,5 @@ Optional an external id, for Stripe this is the price id.
 ## Setup
 
 To enable payments you need to setup a payment provider (i.e. stripe). Through the payment provider the user can
-purchase such plans. For more information please take a look at our [setup monetization](../../developer_portal/setup_monetization.md)
+purchase such plans. For more information please take a look at our [setup monetization](/docs/monetization.md)
 guide.

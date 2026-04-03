@@ -1,7 +1,7 @@
 
 # API
 
-The API section contains all fundamental panels to monitor and configure your API.
+The API section contains all fundamental panels to configure your API.
 
 * [Dashboard](./dashboard)
 * [Operation](./operation)

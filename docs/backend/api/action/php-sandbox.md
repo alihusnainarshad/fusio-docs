@@ -40,9 +40,9 @@ return $response->build(200, [], [
 
 ```
 
-Please take a look at our [PHP API](../../../concepts/php_api/) to get a complete overview about
+Please take a look at our [PHP API](/docs/action/php_api.md) to get a complete overview about
 all available functions. 
 
 Note at the sandbox action we use for security reasons also a sandbox which allows you to use only specific whitelisted
 functions and classes. Please take a look at the [Sandbox](https://github.com/apioo/psx-sandbox) component for more
-information. In general if your logic is more complex it is recommended to [develop a custom action](../../../development/develop_custom_action.md).
+information. In general if your logic is more complex it is recommended to [develop a custom action](/docs/development/custom_action.md).

@@ -1,6 +1,20 @@
 
 # Backend
 
-Contains complete documentation for the backend app. The pages are structured in the same way as the backend app, so
-you can take a look at every page to understand how a specific panel works. These pages are also embedded into the
-backend app if you click on the help button.
+This chapter contains the complete documentation of the backend app. Each menu point
+is structured similar to the backend app. Those pages are also included in the online
+help of each backend page. You can also browse these pages to get a better understanding
+what each menu point does and how the backend app works.
+
+* [API](./api)
+  * Configure and develop your API
+* [Development](./development)
+  * Contains tools to develop your API
+* [Consumer](./consumer)
+  * Manage your API consumers i.e. users and apps
+* [Analytics](./analytics)
+  * Provides analytics of your API
+* [Monetization](./monetization)
+  * Configures monetization of the system
+* [System](./system)
+  * General system settings

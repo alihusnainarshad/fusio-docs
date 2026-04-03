@@ -12,7 +12,7 @@ then you should see the following form:
 ![generator_database](/img/use_cases/api_builder/import_openapi.png)
 
 In the following we explain the generator specific fields, please take a look at our
-[generator concept](../../concepts/generator) page to understand the general concept.
+[generator concept](/docs/generator) page to understand the general concept.
 
 #### Specification
 
