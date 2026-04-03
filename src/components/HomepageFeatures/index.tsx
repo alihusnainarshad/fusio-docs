@@ -15,7 +15,7 @@ const FeatureList: FeatureItem[] = [
     emoji: '📡',
     description: (
       <>
-          Connect databases, microservices, or custom scripts into a standardized REST/GraphQL API. Fusio handles the infrastructure routing, authentication, and request validation so you can focus on core execution logic.
+          Connect databases, microservices, or custom scripts into a standardized API. Fusio handles the infrastructure routing, authentication, and request validation so you can focus on core execution logic.
       </>
     ),
   },
