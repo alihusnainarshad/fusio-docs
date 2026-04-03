@@ -4,83 +4,83 @@ import styles from './styles.module.css';
 
 const FeatureList = [
     {
-        title: 'Database API Gateway',
+        title: 'Custom API Logic',
         emoji: '🔄',
         description: (
             <>
-                Great for unlocking legacy data systems or enabling mobile app access.
+                Build custom backend logic with reusable actions
             </>
         ),
     },
     {
-        title: 'API Business Logic',
+        title: 'Microservice API Gateway',
         emoji: '🧠',
         description: (
             <>
-                Perfect for enterprise use cases requiring tailored backend logic.
-            </>
-        ),
-    },
-    {
-        title: 'Gateway for Microservices',
-        emoji: '🕸️',
-        description: (
-            <>
-                Useful for modern service-oriented architectures or hybrid systems.
+                Secure, route, and orchestrate traffic between microservices
             </>
         ),
     },
     {
         title: 'API Developer Portal',
-        emoji: '🌐',
+        emoji: '🕸️',
         description: (
             <>
-                Ideal for SaaS providers offering APIs to external developers.
+                Provide API docs, testing tools, and SDK downloads
             </>
         ),
     },
     {
         title: 'API Monetization',
+        emoji: '🌐',
+        description: (
+            <>
+                Manage plans, quotas, rate limits, and access control
+            </>
+        ),
+    },
+    {
+        title: 'AI / MCP Integration',
         emoji: '💸',
         description: (
             <>
-                Enable freemium or tiered access models with minimal effort.
+                Expose and control APIs for AI tools and agents
             </>
         ),
     },
     {
-        title: 'MCP Integration',
+        title: 'API Analytics & Monitoring',
         emoji: '⚡',
         description: (
             <>
-                Leverage the Model Context Protocol to enable AI-driven access and control of API endpoints.
+                Track API usage, performance, and errors
             </>
         ),
     },
     {
-        title: 'API Usage Analytics',
+        title: 'AI-Assisted API Development',
         emoji: '📊',
         description: (
             <>
-                Essential for maintaining quality of service and detecting issues early.
-            </>
-        ),
-    },
-    {
-        title: 'Headless CMS Backend',
-        emoji: '📰',
-        description: (
-            <>
-                Great for CMS-like applications where content is managed through APIs.
+                Generate custom backend logic using AI and natural language
             </>
         ),
     },
     {
         title: 'SDK Automation',
+        emoji: '📰',
+        description: (
+            <>
+                Automatically generate client SDKs for your APIs
+            </>
+        ),
+    },
+    {
+        title: 'Database API Gateway',
         emoji: '📡',
         description: (
             <>
-                Automatically generate SDKs (e.g., PHP, TypeScript, Python) based on your defined API schema.
+                Expose legacy databases as REST APIs
             </>
         ),
     },

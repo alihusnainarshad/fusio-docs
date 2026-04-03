@@ -99,21 +99,21 @@ const config = {
           },
           {
             type: 'doc',
-            docId: 'use_cases/index',
+            docId: 'architecture',
             position: 'left',
-            label: 'Use-Cases',
+            label: 'Architecture',
+          },
+          {
+            type: 'doc',
+            docId: 'action/index',
+            position: 'left',
+            label: 'Action',
           },
           {
             type: 'doc',
             docId: 'backend/index',
             position: 'left',
             label: 'Backend',
-          },
-          {
-            type: 'doc',
-            docId: 'concepts/index',
-            position: 'left',
-            label: 'Concepts',
           },
           {
             type: 'doc',
@@ -143,16 +143,12 @@ const config = {
                 to: '/docs/installation',
               },
               {
-                label: 'Use-Cases',
-                to: '/docs/use_cases',
+                label: 'Architecture',
+                to: '/docs/architecture',
               },
               {
                 label: 'Backend',
                 to: '/docs/backend',
-              },
-              {
-                label: 'Concepts',
-                to: '/docs/concepts',
               },
               {
                 label: 'Ecosystem',

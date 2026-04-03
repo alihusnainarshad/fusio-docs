@@ -64,5 +64,5 @@ class HelloWorld extends ActionAbstract
 ```
 
 If you add a constructor to your action Fusio will try to resolve the dependencies based on the DI container.
-More information about developing an custom action at our [develop custom action](../../../use_cases/api_framework/develop_custom_action)
+More information about developing an custom action at our [develop custom action](../../../development/develop_custom_action.md)
 page.
