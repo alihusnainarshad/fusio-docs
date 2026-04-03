@@ -1,5 +1,10 @@
+---
+sidebar_position: 2
+---
 
 # HTTP
+
+This page shows how you can use the HTTP connection to request or proxy internal APIs.
 
 ## Request
 

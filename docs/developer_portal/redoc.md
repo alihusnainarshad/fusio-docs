@@ -1,5 +1,5 @@
 
-# Setup ReDoc
+# ReDoc
 
 Fusio provides the [ReDoc](https://github.com/Redocly/redoc) app which renders the automatically generated
 OpenAPI specification. You can install the app either through the marketplace backend or also manually from our

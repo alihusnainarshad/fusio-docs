@@ -1,5 +1,10 @@
+---
+sidebar_position: 1
+---
 
 # SQL
+
+This page shows how you can use the SQL connection to query data from a table.
 
 ## Fetch All
 
@@ -49,6 +54,9 @@ return function(Worker\ExecuteRequest $request, Worker\ExecuteContext $context, 
     $connection = $connector->getConnection('System');
 
     $id = $request->getArguments()->get('id');
+    if (empty($id)) {
+        return $response->badRequest('Provided no id');
+    }
 
     $query = 'SELECT id, title, content, insert_date FROM my_table WHERE id = :id';
 

@@ -67,7 +67,7 @@ actions. Please take a look at our [website](https://www.fusio-project.org/adapt
 ## API
 
 Inside your action, you already have most tools available to complete many tasks. To see the complete action API please
-take a look at our [PHP API](https://docs.fusio-project.org/docs/concepts/php_api). The following is an example which shows
+take a look at our [PHP API](/docs/action/php_api). The following is an example which shows
 some interesting methods of the internal action API:
 
 ```php
@@ -97,24 +97,6 @@ class HelloWorld extends ActionAbstract
 }
 
 ```
-
-Through the connector you can obtain a connection which is configured at Fusio. This means you can get a database
-connection or http client connection to work with a remote service. Which concrete instance the connector returns
-depends always on the configured connection. The following table provides a first overview:
-
-| Name          | Return                                       | Website                                            | Class                                                  |
-|---------------|----------------------------------------------|----------------------------------------------------|--------------------------------------------------------|
-| AMQP          | `PhpAmqpLib\Connection\AMQPStreamConnection` | https://github.com/php-amqplib/php-amqplib         | `Fusio\Adapter\Amqp\Connection\Amqp`                   |
-| Beanstalk     | `Pheanstalk\Pheanstalk`                      | https://github.com/pda/pheanstalk                  | `Fusio\Adapter\Beanstalk\Connection\Beanstalk`         |
-| Elasticsearch | `Elasticsearch\Client`                       | https://github.com/elastic/elasticsearch-php       | `Fusio\Adapter\Elasticsearch\Connection\Elasticsearch` |
-| GraphQL       | `Fusio\Adapter\GraphQL\ClientInterface`      | https://github.com/apioo/fusio-adapter-graphql/    | `Fusio\Adapter\GraphQL\Connection\GraphQL`             |
-| HTTP          | `GuzzleHttp\Client`                          | http://docs.guzzlephp.org/en/latest/               | `Fusio\Adapter\Http\Connection\Http`                   |
-| Memcache      | `Memcache`                                   | https://www.php.net/manual/book.memcache.php       | `Fusio\Adapter\Memcache\Connection\Memcache`           |
-| MongoDB       | `MongoDB\Database`                           | https://github.com/mongodb/mongo-php-library       | `Fusio\Adapter\Mongodb\Connection\MongoDB`             |
-| Redis         | `Predis\Client`                              | https://github.com/predis/predis                   | `Fusio\Adapter\Redis\Connection\Redis`                 |
-| SMTP          | `Symfony\Component\Mailer\Mailer`            | https://symfony.com/doc/current/mailer.html        | `Fusio\Adapter\Smtp\Connection\Smtp`                   |
-| SOAP          | `SoapClient`                                 | https://www.php.net/manual/class.soapclient.php    | `Fusio\Adapter\Soap\Connection\Soap`                   |
-| Sql           | `Doctrine\DBAL\Connection`                   | http://www.doctrine-project.org/projects/dbal.html | `Fusio\Adapter\Sql\Connection\Sql`                     |
 
 ## Dependency Injection
 

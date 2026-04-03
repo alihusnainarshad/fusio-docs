@@ -1,8 +1,8 @@
 
-# Setup Developer-Portal
+# Developer Portal
 
 The developer app provides an easy way to set up an API program where external developers can register to consume
-your API. It provides a documentation page and login/registration system where new developers can register. 
+your API. It provides a documentation page and login/registration system where new developers can register.
 
 ![consumer](/img/use_cases/api_product/developer_portal.png)
 
@@ -34,3 +34,5 @@ You also might want to take a look at the following settings which you can custo
 | `recaptcha_key/secret`  | The Google recaptcha key and secret                     |
 | `provider_*_key/secret` | To activate a social login provide a key and secret     |
 | `role_default`          | The default role which every user receives              |
+
+

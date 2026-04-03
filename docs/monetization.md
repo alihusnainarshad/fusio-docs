@@ -1,9 +1,8 @@
 
-# Setup Monetization
+# Monetization
 
 Fusio helps you to monetize your API. It has a concept of points which each user can buy. A user can then spend those
-points by calling specific routes which cost a specific amount of points. The API developer can simply add a cost to
-every route and request method.
+points by calling specific operations which cost a specific amount of points.
 
 ## Installation
 
@@ -21,7 +20,7 @@ php bin/fusio system:register "Fusio\Adapter\Stripe\Adapter"
 ```
 
 Then you need to create a new connection at the Fusio backend. This connection must be named "stripe" and you need to
-provide your app credentials. At the connection you need to provide the credentials.
+provide your app credentials.
 
 ## Webhook
 

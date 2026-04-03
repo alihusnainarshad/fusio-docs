@@ -1,3 +1,7 @@
+---
+sidebar_position: 3
+---
+
 # PHP API
 
 Fusio provides a specific PHP-API in every action which can be used to produce a response. This API describes all
@@ -100,14 +104,43 @@ different kind of services i.e. ElasticSearch, MongoDB, AMQP, etc.
 |-------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | `getConnection(string/int $connectionId)` | Returns an arbitrary connection to a remote service. It is recommended to use the connection name but you can also use the actual database id of the connection |
 
+The following table shows the connection type mapping:
+
+| Name          | Return                                       | Website                                            | Class                                                  |
+|---------------|----------------------------------------------|----------------------------------------------------|--------------------------------------------------------|
+| AMQP          | `PhpAmqpLib\Connection\AMQPStreamConnection` | https://github.com/php-amqplib/php-amqplib         | `Fusio\Adapter\Amqp\Connection\Amqp`                   |
+| Beanstalk     | `Pheanstalk\Pheanstalk`                      | https://github.com/pda/pheanstalk                  | `Fusio\Adapter\Beanstalk\Connection\Beanstalk`         |
+| Elasticsearch | `Elasticsearch\Client`                       | https://github.com/elastic/elasticsearch-php       | `Fusio\Adapter\Elasticsearch\Connection\Elasticsearch` |
+| GraphQL       | `Fusio\Adapter\GraphQL\ClientInterface`      | https://github.com/apioo/fusio-adapter-graphql/    | `Fusio\Adapter\GraphQL\Connection\GraphQL`             |
+| HTTP          | `GuzzleHttp\Client`                          | http://docs.guzzlephp.org/en/latest/               | `Fusio\Adapter\Http\Connection\Http`                   |
+| Memcache      | `Memcache`                                   | https://www.php.net/manual/book.memcache.php       | `Fusio\Adapter\Memcache\Connection\Memcache`           |
+| MongoDB       | `MongoDB\Database`                           | https://github.com/mongodb/mongo-php-library       | `Fusio\Adapter\Mongodb\Connection\MongoDB`             |
+| Redis         | `Predis\Client`                              | https://github.com/predis/predis                   | `Fusio\Adapter\Redis\Connection\Redis`                 |
+| SMTP          | `Symfony\Component\Mailer\Mailer`            | https://symfony.com/doc/current/mailer.html        | `Fusio\Adapter\Smtp\Connection\Smtp`                   |
+| SOAP          | `SoapClient`                                 | https://www.php.net/manual/class.soapclient.php    | `Fusio\Adapter\Soap\Connection\Soap`                   |
+| SQL           | `Doctrine\DBAL\Connection`                   | http://www.doctrine-project.org/projects/dbal.html | `Fusio\Adapter\Sql\Connection\Sql`                     |
+
+
 ### $response
 
 The response factory MUST be used to create a response for an action. It is a factory method which returns a specific
 response object. Please always use this factory since this gives us the freedom to change the response implementation.
 
-| Name	                                                 |  Description                  |
-|-------------------------------------------------------|-------------------------------|
-| `build(int $statusCode, array $headers, mixed $body)` | Creates a new response object |
+| Name	                                                   | Description                                                 |
+|---------------------------------------------------------|-------------------------------------------------------------|
+| `build(int $statusCode, array $headers, mixed $body)`   | Builds a new response object                                |
+| `proxy(Response $response)`                             | Proxies a response from an internal HTTP request            |
+| `ok(mixed $body, array $headers = [])`                  | Builds an ok (200) success response                         |
+| `created(mixed $body, array $headers = [])`             | Builds a created (201) success response                     |
+| `accepted(mixed $body, array $headers = [])`            | Builds an accepted (202) success response                   |
+| `noContent(array $headers =  [])`                       | Builds a no content (204) success response                  |
+| `badRequest(mixed $body, array $headers = [])`          | Builds a bad request (400) client error response            |
+| `forbidden(mixed $body, array $headers = [])`           | Builds a forbidden (403) client error response              |
+| `notFound(mixed $body, array $headers = [])`            | Builds a not found (404) client error response              |
+| `conflict(mixed $body, array $headers = [])`            | Builds a conflict (409) client error response               |
+| `gone(mixed $body, array $headers = [])`                | Builds a gone (410) client error response                   |
+| `internalServerError(mixed $body, array $headers = [])` | Builds an internal server error (500) server error response |
+| `notImplemented(mixed $body, array $headers = [])`      | Builds a not implemented (501) server error response        |
 
 ### $processor
 
