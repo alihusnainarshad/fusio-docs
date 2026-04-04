@@ -12,8 +12,7 @@ a stability flag for each operation.
 
 ## Stability
 
-In Fusio the idea is that every operation can go through the following stability
-life cycle:
+In Fusio the idea is that every operation can go through the following life cycle:
 
 * Experimental
 * Stable

@@ -1,10 +1,9 @@
 
 # Operation
 
-An Operation is a functional unit of logic that can be invoked by a remote entity.
-While most commonly accessed via HTTP (by binding a specific path and method),
-operations in Fusio are protocol-agnostic. They can also be triggered through an
-[AI Agent](/docs/ai), [MCP](/docs/protocol/mcp), [JSON-RPC](/docs/protocol/jsonrpc),
+An operation describes a functional unit of logic that can be invoked by a remote
+entity. Every operation is bound to a specific HTTP path and method but they can
+also be triggered through an [AI Agent](/docs/ai), [MCP](/docs/protocol/mcp), [JSON-RPC](/docs/protocol/jsonrpc),
 or [GraphQL](/docs/protocol/graphql).
 
 ![operation_detail](/img/operation/operation_detail.png)
