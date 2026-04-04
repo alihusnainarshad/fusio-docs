@@ -1,5 +1,5 @@
 
-# Invoke async action
+# Invoke Async Action
 
 Fusio provides an option to execute an action in async mode. This means that if a request arrives at this action the
 request gets placed in a queue and will be executed later on in the background. To make an action async you need to 

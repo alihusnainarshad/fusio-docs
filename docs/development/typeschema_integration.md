@@ -1,5 +1,5 @@
 
-# TypeSchema integration
+# TypeSchema Integration
 
 Fusio comes built-in with support for [TypeSchema](https://typeschema.org/) a JSON format to describe data models in a
 language neutral format. Through TypeSchema you can define your data schema in a simple JSON files and then

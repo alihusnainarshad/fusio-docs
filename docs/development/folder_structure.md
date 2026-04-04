@@ -1,5 +1,5 @@
 
-# Folder structure
+# Folder Structure
 
 This page contains the recommended folder structure for every Fusio project.
 You can find a live example also at our [sample headless CMS](https://github.com/apioo/fusio-sample-cms) repository.

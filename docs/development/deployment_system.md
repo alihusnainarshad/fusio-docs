@@ -1,12 +1,11 @@
 
-# Deployment system
+# Deployment System
 
 Fusio has a deployment system which allows you to store your complete Fusio configuration into `.yaml` config files.
 This allows you to store all config in a VCS so that you can easily reproduce a Fusio installation without sharing a
 database. You can execute the deployment system with the `php bin/fusio deploy` command, then Fusio reads all defined
 configuration files and sends them to the internal REST API. If you want to see an example you can take a look at our
-[headless CMS repository](https://github.com/apioo/fusio-sample-cms) which uses the deploy system to build a headless
-CMS.
+[framework repository](https://github.com/apioo/fusio-framework) which uses the deploy system.
 
 ## Operations
 

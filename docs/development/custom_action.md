@@ -1,5 +1,5 @@
 
-# Custom action
+# Custom Action
 
 In Fusio it is easily possible to develop a custom action in case you want to implement a specific logic. This page
 explains how to build a custom action.
