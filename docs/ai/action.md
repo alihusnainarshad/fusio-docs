@@ -1,5 +1,5 @@
 
-# Action
+# Action Agent
 
 The action agent helps you to build custom action business logic.
 You can simply describe what you want to build and the agent tries
@@ -13,12 +13,8 @@ the generated code in an editor.
 
 ![action_agent](/img/ai/action_agent.png)
 
-You can then also send more messages to improve or fix the generated
-code.
-
-![action_agent_update](/img/ai/action_agent_update.png)
-
-If you use the "Execute" button Fusio will create/update the action
+You can of course send also more messages to improve or fix the generated
+code. If you use the "Execute" button Fusio will create/update the action
 and execute it and directly return the response of the action.
 
 ![action_agent_execute](/img/ai/action_agent_execute.png)
