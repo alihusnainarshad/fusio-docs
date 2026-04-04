@@ -16,8 +16,7 @@ with Fusio through an HTTP client without the SDK.
 ## Frameworks
 
 It is possible to use Fusio with almost any frontend Framework like Angular, React
-or Vue since you only interact with the REST API.
-
-Fusio has special support for Angular since the type-safety of Fusio and Angular
-is a great match. Take a look at the [Angular integration](./angular_integration) page
-for more details.
+or Vue since you only interact with Fusio through the REST API. But Fusio has special
+support for Angular since the type-safety of Fusio and Angular is a great match, which
+is also used at the backend and developer app. Take a look at the [Angular integration](./angular_integration)
+page for more details.
