@@ -54,4 +54,6 @@ find at most popular developer portals. Since Fusio can solve many use cases, we
 three parts:
 
 * [Architecture](./architecture.md)
-* [Backend](./backend/index.md)
+* [Operation](./operation/index.md)
+* [Action](./action/index.md)
+* [AI](./ai/index.md)
