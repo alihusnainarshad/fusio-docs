@@ -56,8 +56,6 @@ Please take a look also at our docs regarding a specific platform:
 * [Docker](./docker)
 * [Apache](./apache)
 * [Nginx](./nginx)
-* [IIS](./iis)
-* [cPanel](./cpanel)
 
 ## Update
 

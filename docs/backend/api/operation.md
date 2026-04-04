@@ -79,7 +79,7 @@ A schema which describes the success response payload. You can select one of the
   Selects a preconfigured schema which was previously created at the schema panel.
 * __Class__  
   Reference a PHP class which is available at your source code i.e. `App\Model\MySchema`. You can also automatically
-  generate those [model classes](./../../use_cases/api_framework/generate_model)
+  generate those [model classes](../../development/generate_model.md)
 * __HTTP/HTTPS__  
   Invokes an HTTP url and resolves the schema
 * __File__  
@@ -95,7 +95,7 @@ Schemas to describe the error response payloads. You can select one of the follo
   Selects a preconfigured schema which was previously created at the schema panel.
 * __Class__  
   Reference a PHP class which is available at your source code i.e. `App\Model\MySchema`. You can also automatically
-  generate those [model classes](./../../use_cases/api_framework/generate_model)
+  generate those [model classes](../../development/generate_model.md)
 * __HTTP/HTTPS__  
   Invokes an HTTP url and resolves the schema
 * __File__  

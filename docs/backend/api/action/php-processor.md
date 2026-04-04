@@ -1,7 +1,7 @@
 
 # PHP Processor
 
-The PHP processor executes a PHP file. There is also a complete API [documentation](../../../concepts/php_api/)
+The PHP processor executes a PHP file. There is also a complete API [documentation](/docs/action/php_api.md)
 describing all available objects.
 
 ## Configuration

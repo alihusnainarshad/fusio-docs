@@ -7,3 +7,4 @@ The Development section provides tools to develop, generate or install new actio
 * [Generator](./generator)
 * [Marketplace](./marketplace)
 * [Test](./test)
+* [Bundle](./bundle)
