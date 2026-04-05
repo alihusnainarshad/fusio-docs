@@ -15,7 +15,7 @@ Fusio is written in PHP and requires at least version 8.3 and a database.
 
 There are two ways of downloading Fusio:
 
-* [Download](https://www.fusio-project.org/download) the latest release from Github
+* [Download](https://www.fusio-project.org/developers) the latest release from Github
 * Use composer and run the command `composer create-project fusio/fusio`
 
 Place the script in the `www/` directory of your web server. After successfully downloading Fusio, please continue with the
