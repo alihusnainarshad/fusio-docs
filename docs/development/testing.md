@@ -2,8 +2,7 @@
 # Testing
 
 Fusio provides a complete Test-Setup for your API endpoints. In the `Fixture.php` class it is also possible to define
-fixture data which is inserted for every test case. Please take a look at the tests of our
-[sample cms repository](https://github.com/apioo/fusio-sample-cms/tree/master/tests) to see some live test examples.
+fixture data which is inserted for every test case.
 
 The idea is that each endpoint has a corresponding test case class which tests the GET, POST, PUT and DELETE method of
 the resource. Internally we can send an HTTP request to Fusio without the need to setup an HTTP server. This makes these

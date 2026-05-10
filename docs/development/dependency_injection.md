@@ -61,7 +61,7 @@ class MyAction extends ActionAbstract
 ```
 
 We have created also a sample project showing all best practices of Fusio at:
-https://github.com/apioo/fusio-sample-cms
+https://github.com/apioo/fusio-framework
 
 ## Folders
 

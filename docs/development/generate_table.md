@@ -14,5 +14,5 @@ php bin/fusio generate:table
 ```
 
 This writes all table classes at the `src/Table` folder. You can take a look
-at our [sample repository](https://github.com/apioo/fusio-sample-cms/tree/master/src/Table)
+at our [framework repository](https://github.com/apioo/fusio-framework/tree/main/src/Table)
 to see the generated table classes.

@@ -9,7 +9,7 @@ configuration files and sends them to the internal REST API. If you want to see 
 
 ## Operations
 
-All operations are stored in a dedicated [operations](https://github.com/apioo/fusio-sample-cms/blob/master/resources/operations.yaml)
+All operations are stored in a dedicated [operations](https://github.com/apioo/fusio-framework/blob/main/resources/operations.yaml)
 file which includes for each operation a detail yaml file.
 
 ```yaml
@@ -178,7 +178,7 @@ creates/updates all resources through the API.
 ## Advanced
 
 We have only covered deploying "operation" objects, but it is possible to deploy almost any
-object which is available at Fusio. Therefor you need to configure the [.fusio.yml](https://github.com/apioo/fusio-sample-cms/blob/master/.fusio.yml)
+object which is available at Fusio. Therefor you need to configure the [.fusio.yml](https://github.com/apioo/fusio-framework/blob/main/.fusio.yml)
 file to include the fitting files. The following list shows all resources which can be deployed:
 
 * Action

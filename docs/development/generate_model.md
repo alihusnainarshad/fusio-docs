@@ -7,7 +7,7 @@ request and response models to build complete type-safe endpoints.
 
 First you need to define your schema at the `resources/typeschema.json` file, the
 schema is based on [TypeSchema](https://typeschema.org/). Please take a look at our
-[sample repository](https://github.com/apioo/fusio-sample-cms/blob/master/resources/typeschema.json)
+[framework repository](https://github.com/apioo/fusio-framework/blob/main/resources/typeschema.json)
 to see an example schema.
 
 If you have defined your schema you can run the following command to generate the
