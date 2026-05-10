@@ -20,7 +20,7 @@ Fusio instance:
 * [General](./general.md)
 * [Schema](./schema.md)
 
-## Custom
+## Agent Development
 
 Like the Fusio internal agents you can use the same logic to build a custom Agent for
 your use case. In this example we have created "My-Math-Agent" which tries to solve math
