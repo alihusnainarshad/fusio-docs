@@ -2,7 +2,7 @@
 # Folder Structure
 
 This page contains the recommended folder structure for every Fusio project.
-You can find a live example also at our [sample framework](https://github.com/apioo/fusio-framework) repository.
+You can find a live example also at our [framework repository](https://github.com/apioo/fusio-framework).
 
 ## `resources/config.yaml`  
 
